@@ -4,7 +4,7 @@ const fs = require('fs');
 const url = require('url');
 const replaceTemplate = require('./modules/replaceTemplates');
 
-//Server
+//Server creation
 
 const tempOverview = fs.readFileSync(
   `${__dirname}/templates/template-overview.html`,
